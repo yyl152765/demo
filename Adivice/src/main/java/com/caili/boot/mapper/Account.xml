@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.caili.boot.dao.AccountMapper">
+
+
+    <insert id="save" parameterType="account" useGeneratedKeys="true" keyProperty="id">
+      insert into o_caidou_account(openid,user_name,real_name,sex,phone,oldopenid,createtime,state) values
+  (#{openid},#{user_name},#{real_name},#{sex},#{phone},#{oldopenid},#{createtime},#{state})
+</insert>
+
+
+    <update id="update" parameterType="account">
+        update o_caidou_account
+        <set>
+            <if test="user_name!=null and user_name!=''">
+                user_name=#{user_name},
+            </if>
+            <if test="real_name!=null and real_name!=''">
+                real_name=#{real_name},
+            </if>
+            <if test="sex!=null and sex!=''">
+                sex=#{sex},
+            </if>
+            <if test="phone!=null and phone!=''">
+                phone=#{phone},
+            </if>
+            <if test="oldopenid!=null and oldopenid!=''">
+                oldopenid=#{oldopenid},
+            </if>
+            <if test="createtime!=null and createtime!=''">
+                createtime=#{createtime},
+            </if>
+            <if test="state!=null and state!=''">
+                state=#{state},
+            </if>
+
+
+        </set>
+        where openid = #{openid}
+    </update>
+
+</mapper>

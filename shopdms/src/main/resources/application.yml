@@ -1,0 +1,27 @@
+server:  #配置中间件
+  port: 8336
+  tomcat:
+    uri-encoding: utf-8
+spring:
+  profiles:
+    include: dev
+  datasource:  #配置数据源
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://111.230.244.78:3306/ydh_store?createDatabaseIfNotExist=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&pinGlobalTxToPhysicalConnection=true&autoReconnect=true&useOldAliasMetadataBehavior=true&serverTimezone=GMT%2B8
+      username: root
+      password: gzcaili2004
+
+  jpa: #配置jpa
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+  jackson:
+    time-zone: GMT+8   #配置时间和数据库一致
+  servlet:
+    multipart:   #配置文件输入的最大值
+      max-file-size: 10MB
+      max-request-size: 100MB
+
+  logging: #日志配置
+    config: classpath:logback-spring.xml

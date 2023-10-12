@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.caili.boot.dao.AccountDetailMapper">
+
+    <insert id="save" parameterType="accountdetail">
+    insert into o_caidou_account_detail(openid,ischange,signday,caidoubalance,lastsigntime) values
+    (#{openid},#{ischange},#{signday},#{caidoubalance},#{lastsigntime})
+    </insert>
+
+    <update id="update" parameterType="accountdetail">
+        update o_caidou_account_detail
+        <set>
+
+            <if test="signday!=null and signday!=''">
+                signday=#{signday},
+            </if>
+            <if test="caidoubalance!=null and caidoubalance!=''">
+                caidoubalance=#{caidoubalance},
+            </if>
+            <if test="lastsigntime!=null and lastsigntime!=''">
+                lastsigntime=#{lastsigntime},
+            </if>
+
+                ischange=#{ischange}
+
+        </set>
+        where openid = #{openid}
+    </update>
+</mapper>

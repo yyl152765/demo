@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.caili.boot.dao.MyAddressMapper">
+
+    <resultMap id="resmap" type="myaddress">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result property="openid" column="openid"/>
+        <result property="shname" column="shname"/>
+        <result property="phone" column="phone"/>
+        <result property="area" column="area"/>
+        <result property="areadetail" column="areadetail"/>
+        <result property="isdefault" column="isdefault"/>
+    </resultMap>
+
+    <select id="getMyaddressbyid" resultMap="resmap" parameterType="Integer">
+ select * from o_caidou_myaddress where id = #{id}
+</select>
+    <insert id="save" parameterType="myaddress">
+    insert into o_caidou_myaddress(openid,shname,phone,area,areadetail,isdefault) values
+    (#{openid},#{shname},#{phone},#{area},#{areadetail},#{isdefault})
+    </insert>
+
+
+    <update id="update" parameterType="myaddress">
+        update o_caidou_myaddress
+        <set>
+            <if test="openid!=null and openid!=''">
+                openid=#{openid},
+            </if>
+            <if test="shname!=null and shname!=''">
+                shname=#{shname},
+            </if>
+            <if test="phone!=null and phone!=''">
+                phone=#{phone},
+            </if>
+            <if test="area!=null and area!=''">
+                area=#{area},
+            </if>
+
+            <if test="areadetail!=null and areadetail!=''">
+                areadetail=#{areadetail},
+            </if>
+                isdefault=#{isdefault}
+
+        </set>
+        where id = #{id}
+    </update>
+
+</mapper>

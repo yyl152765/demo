@@ -1,0 +1,32 @@
+spring:
+  datasource:  #配置数据源
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rpa_smsmanage?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: 123456
+  main:
+      allow-circular-references: true
+  devtools: #配置热部署
+    restart:
+      enabled: true
+  jackson:
+    time-zone: GMT+8   #配置时间和数据库一致
+  servlet:
+    multipart:   #配置文件输入的最大值
+      max-file-size: 10MB
+      max-request-size: 100MB
+
+mybatis: #配置mybatis
+  mapper-locations: classpath:com/sz/jh/rpa/mapper/*.xml
+  type-aliases-package: com.sz.jh.rpa.entity
+  type-handlers-package: com.sz.jh.rpa.dao
+  configuration:
+    map-underscore-to-camel-case: true
+    default-fetch-size: 100
+
+logging: #日志配置
+  config: classpath:logback-spring.xml
+
+
+server:    #设置端口
+  port: 8080

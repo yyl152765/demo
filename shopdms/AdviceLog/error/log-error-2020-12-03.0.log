@@ -1,0 +1,4 @@
+2020-12-03 18:20:58.250 [http-nio-8336-exec-6] ERROR com.example.shopdms.entity.Sftp - Cannot connect to specified sftp server : 111.230.244.78:22 
+ Exception message is: Session.connect: java.net.SocketException: Connection reset
+2020-12-03 18:21:43.698 [http-nio-8336-exec-9] ERROR com.example.shopdms.entity.Sftp - Cannot connect to specified sftp server : 111.230.244.78:22 
+ Exception message is: Session.connect: java.net.SocketException: Connection reset

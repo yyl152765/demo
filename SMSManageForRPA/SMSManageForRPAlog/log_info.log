@@ -1,0 +1,13 @@
+2023-09-27 13:46:51.760 [restartedMain] INFO  com.sz.jh.rpa.SMSManageForRPAApplication - Starting SMSManageForRPAApplication using Java 1.8.0_371 on LAPTOP-9FHVK68C with PID 23764 (D:\Java\Project\SMSManageForRPA\target\classes started by 杨玉林 in D:\Java\Project\SMSManageForRPA)
+2023-09-27 13:46:51.761 [restartedMain] INFO  com.sz.jh.rpa.SMSManageForRPAApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-27 13:46:51.818 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-27 13:46:51.818 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-27 13:46:53.240 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-09-27 13:46:53.254 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-27 13:46:53.255 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-27 13:46:53.255 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-09-27 13:46:53.331 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-27 13:46:53.331 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1511 ms
+2023-09-27 13:46:53.972 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-27 13:46:53.997 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-27 13:46:54.008 [restartedMain] INFO  com.sz.jh.rpa.SMSManageForRPAApplication - Started SMSManageForRPAApplication in 2.853 seconds (JVM running for 3.385)

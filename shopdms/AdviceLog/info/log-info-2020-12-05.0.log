@@ -1,0 +1,104 @@
+2020-12-05 16:02:58.472 [main] INFO  com.example.shopdms.ShopdmsApplication - Starting ShopdmsApplication using Java 1.8.0_221 on LAPTOP-QIC8RRKI with PID 4556 (D:\dsgc\shopdms\target\classes started by gzcaili in D:\dsgc\shopdms)
+2020-12-05 16:02:58.503 [main] INFO  com.example.shopdms.ShopdmsApplication - The following profiles are active: dev
+2020-12-05 16:03:00.957 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-05 16:03:01.051 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 0 JPA repository interfaces.
+2020-12-05 16:03:01.692 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.example.shopdms.async.AsyncTaskConfig$$EnhancerBySpringCGLIB$$5a4acb30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-05 16:03:02.973 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8336 (http)
+2020-12-05 16:03:03.020 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8336"]
+2020-12-05 16:03:03.020 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-05 16:03:03.020 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-05 16:03:03.629 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-05 16:03:03.629 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4829 ms
+2020-12-05 16:03:05.504 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 16:03:06.301 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-05 16:03:06.566 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-05 16:03:09.277 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-05 16:03:11.140 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-05 16:03:13.175 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8336"]
+2020-12-05 16:03:13.349 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8336 (http) with context path ''
+2020-12-05 16:03:13.368 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-12-05 16:03:13.374 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-12-05 16:03:13.447 [main] INFO  com.example.shopdms.ShopdmsApplication - Started ShopdmsApplication in 17.382 seconds (JVM running for 34.646)
+2020-12-05 16:03:13.518 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-05 16:03:13.674 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-05 16:03:17.846 [task-1] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-05 16:03:17.890 [task-1] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-05 16:03:33.238 [http-nio-8336-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-05 16:03:33.239 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-05 16:03:33.245 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-05 16:03:33.957 [http-nio-8336-exec-1] INFO  c.example.shopdms.service.impl.AccountServiceImpl - 根据loginname=shop查询Account
+2020-12-05 16:03:34.031 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Account u WHERE u.login_admin= ?1--------sql语句-------------
+2020-12-05 16:03:39.546 [http-nio-8336-exec-4] INFO  c.example.shopdms.service.impl.AccountServiceImpl - 根据loginname=shop查询Account
+2020-12-05 16:03:39.547 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Account u WHERE u.login_admin= ?1--------sql语句-------------
+2020-12-05 16:03:48.433 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.GoodsType所有正常数据
+2020-12-05 16:03:48.435 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from GoodsType u WHERE u.state= ?1--------sql语句-------------
+2020-12-05 16:03:48.481 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=1
+2020-12-05 16:03:48.482 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-05 16:03:48.520 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=2
+2020-12-05 16:03:48.521 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-05 16:03:48.547 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=3
+2020-12-05 16:03:48.548 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-05 16:03:48.565 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=4
+2020-12-05 16:03:48.565 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-05 16:50:25.746 [main] INFO  com.example.shopdms.ShopdmsApplication - Starting ShopdmsApplication using Java 1.8.0_221 on LAPTOP-QIC8RRKI with PID 11444 (D:\dsgc\shopdms\target\classes started by gzcaili in D:\dsgc\shopdms)
+2020-12-05 16:50:25.760 [main] INFO  com.example.shopdms.ShopdmsApplication - The following profiles are active: dev
+2020-12-05 16:50:28.507 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-05 16:50:28.591 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 0 JPA repository interfaces.
+2020-12-05 16:50:29.252 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.example.shopdms.async.AsyncTaskConfig$$EnhancerBySpringCGLIB$$1f08dc3d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-05 16:50:30.560 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8336 (http)
+2020-12-05 16:50:30.603 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8336"]
+2020-12-05 16:50:30.606 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-05 16:50:30.608 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-05 16:50:31.077 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-05 16:50:31.078 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5062 ms
+2020-12-05 16:50:31.674 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 16:50:31.873 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-05 16:50:32.129 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-05 16:50:33.025 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-05 16:50:33.539 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-05 16:50:33.982 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8336"]
+2020-12-05 16:50:34.064 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8336 (http) with context path ''
+2020-12-05 16:50:34.075 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-12-05 16:50:34.076 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-12-05 16:50:34.113 [main] INFO  com.example.shopdms.ShopdmsApplication - Started ShopdmsApplication in 10.962 seconds (JVM running for 15.833)
+2020-12-05 16:50:34.400 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-05 16:50:34.485 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-05 16:50:38.489 [task-1] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-05 16:50:38.522 [task-1] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-05 17:32:11.740 [http-nio-8336-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-05 17:32:11.741 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-05 17:32:11.746 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-12-05 17:56:08.109 [http-nio-8336-exec-7] INFO  com.example.shopdms.controller.GoodsController - 操作成功
+2020-12-05 17:58:19.560 [http-nio-8336-exec-1] INFO  com.example.shopdms.controller.GoodsController - 操作成功
+2020-12-05 18:01:17.613 [http-nio-8336-exec-5] INFO  com.example.shopdms.controller.GoodsController - 操作成功
+2020-12-05 18:01:21.571 [http-nio-8336-exec-7] INFO  com.example.shopdms.controller.GoodsController - 操作成功
+2020-12-05 18:30:55.663 [http-nio-8336-exec-9] INFO  com.example.shopdms.entity.Sftp - sftp connect by host:111.230.244.78 username:root
+2020-12-05 18:30:55.692 [http-nio-8336-exec-9] INFO  com.example.shopdms.entity.Sftp - Session is build
+2020-12-05 18:30:58.208 [http-nio-8336-exec-9] INFO  com.example.shopdms.entity.Sftp - Session is connected
+2020-12-05 18:30:58.280 [http-nio-8336-exec-9] INFO  com.example.shopdms.entity.Sftp - channel is connected
+2020-12-05 18:30:58.281 [http-nio-8336-exec-9] INFO  com.example.shopdms.entity.Sftp - sftp server host:[111.230.244.78] port:[22] is connect successfull
+2020-12-05 18:30:58.374 [http-nio-8336-exec-9] INFO  com.example.shopdms.entity.Sftp - file:53bc3b83768b4f1c94afa1e5a8996f94.jpg is upload successful
+2020-12-05 18:30:58.376 [http-nio-8336-exec-9] INFO  com.example.shopdms.entity.Sftp - sftp is closed already
+2020-12-05 18:30:58.387 [http-nio-8336-exec-9] INFO  com.example.shopdms.entity.Sftp - sshSession is closed already
+2020-12-05 18:35:33.111 [http-nio-8336-exec-2] INFO  com.example.shopdms.entity.Sftp - sftp connect by host:111.230.244.78 username:root
+2020-12-05 18:35:33.112 [http-nio-8336-exec-2] INFO  com.example.shopdms.entity.Sftp - Session is build
+2020-12-05 18:35:33.524 [http-nio-8336-exec-2] INFO  com.example.shopdms.entity.Sftp - Session is connected
+2020-12-05 18:35:33.555 [http-nio-8336-exec-2] INFO  com.example.shopdms.entity.Sftp - channel is connected
+2020-12-05 18:35:33.556 [http-nio-8336-exec-2] INFO  com.example.shopdms.entity.Sftp - sftp server host:[111.230.244.78] port:[22] is connect successfull
+2020-12-05 18:35:33.623 [http-nio-8336-exec-2] INFO  com.example.shopdms.entity.Sftp - file:9dd464fa529b47939da87426988359b8.jpg is upload successful
+2020-12-05 18:35:33.624 [http-nio-8336-exec-2] INFO  com.example.shopdms.entity.Sftp - sftp is closed already
+2020-12-05 18:35:33.627 [http-nio-8336-exec-2] INFO  com.example.shopdms.entity.Sftp - sshSession is closed already
+2020-12-05 18:35:35.069 [http-nio-8336-exec-3] INFO  com.example.shopdms.controller.GoodsController - 操作成功
+2020-12-05 18:37:29.959 [http-nio-8336-exec-6] INFO  com.example.shopdms.controller.GoodsController - 操作成功
+2020-12-05 18:39:59.707 [http-nio-8336-exec-7] INFO  com.example.shopdms.entity.Sftp - sftp connect by host:111.230.244.78 username:root
+2020-12-05 18:39:59.708 [http-nio-8336-exec-7] INFO  com.example.shopdms.entity.Sftp - Session is build
+2020-12-05 18:40:00.341 [http-nio-8336-exec-7] INFO  com.example.shopdms.entity.Sftp - Session is connected
+2020-12-05 18:40:00.366 [http-nio-8336-exec-7] INFO  com.example.shopdms.entity.Sftp - channel is connected
+2020-12-05 18:40:00.366 [http-nio-8336-exec-7] INFO  com.example.shopdms.entity.Sftp - sftp server host:[111.230.244.78] port:[22] is connect successfull
+2020-12-05 18:40:00.411 [http-nio-8336-exec-7] INFO  com.example.shopdms.entity.Sftp - file:13cfba687c9c4ce0a9925832aa0c8e71.jpg is upload successful
+2020-12-05 18:40:00.412 [http-nio-8336-exec-7] INFO  com.example.shopdms.entity.Sftp - sftp is closed already
+2020-12-05 18:40:00.413 [http-nio-8336-exec-7] INFO  com.example.shopdms.entity.Sftp - sshSession is closed already
+2020-12-05 18:40:02.719 [http-nio-8336-exec-9] INFO  com.example.shopdms.controller.GoodsController - 操作成功
+2020-12-05 18:40:08.250 [http-nio-8336-exec-10] INFO  com.example.shopdms.controller.GoodsController - 操作成功
+2020-12-05 18:40:38.650 [http-nio-8336-exec-3] INFO  com.example.shopdms.controller.GoodsController - {"id":1}
+2020-12-05 18:40:38.652 [http-nio-8336-exec-3] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.GoodsTypeid=1

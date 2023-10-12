@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.caili.boot.dao.VoucherBillMapper">
+
+    <insert id="save" parameterType="voucherbill">
+    insert into o_caidou_voucherbill(openid,voucherid,typeid,typename,createtime) values
+    (#{openid},#{voucherid},#{typeid},#{typename},#{createtime})
+    </insert>
+
+
+</mapper>

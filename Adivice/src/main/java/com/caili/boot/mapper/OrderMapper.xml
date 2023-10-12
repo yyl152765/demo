@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.caili.boot.dao.OrderMapper">
+    <resultMap id="resmap" type="order">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result property="ordernumber" column="ordernumber"/>
+        <result property="payprice" column="payprice"/>
+        <result property="ispay" column="ispay"/>
+        <result property="isship" column="isship"/>
+        <result property="shiptime" column="shiptime"/>
+        <result property="isreceipts" column="isreceipts"/>
+        <result property="shipnumber" column="shipnumber"/>
+        <result property="state" column="state"/>
+        <result property="updatetime" column="updatetime"/>
+        <result property="iscovert" column="iscovert"/>
+        <result property="covert_caidou" column="covert_caidou"/>
+        <result property="covert_money" column="covert_money"/>
+        <result property="createtime" column="createtime"/>
+        <result property="openid" column="openid"/>
+        <result property="prepay_id" column="prepay_id"/>
+        <collection property="orderGoods" column="id"
+                     select="com.caili.boot.dao.OrderGoodsMapper.getordergoogsbynumber"/>
+    </resultMap>
+
+
+    <select id="getorderbyopenid" resultMap="resmap" parameterType="String">
+ select * from o_caidou_order where openid = #{openid} and state!=-1 order by createtime desc;
+</select>
+
+    <select id="getGoodsbyordernumber" resultMap="resmap" parameterType="String">
+ select * from o_caidou_order where ordernumber = #{ordernumber} and state!=-1
+</select>
+
+    <insert id="saveOrder" parameterType="order">
+    insert into o_caidou_order(ordernumber,payprice,ispay,isship,createtime,updatetime,shiptime,isreceipts,shipnumber,state,iscovert,covert_caidou,covert_money,openid,prepay_id) values
+    (#{ordernumber},#{payprice},#{ispay},#{isship},#{createtime},#{updatetime},#{shiptime},#{isreceipts},#{shipnumber},#{state},#{iscovert},#{covert_caidou},#{covert_money},#{openid},#{prepay_id})
+    </insert>
+
+    <update id="updateOrder" parameterType="order">
+        update o_caidou_order
+        <set>
+            <if test="prepay_id!=null and prepay_id!=''">
+                prepay_id=#{prepay_id},
+            </if>
+            <if test="updatetime!=null and updatetime!=''">
+                updatetime=#{updatetime},
+            </if>
+            ispay=#{ispay}
+        </set>
+        where ordernumber = #{ordernumber}
+    </update>
+
+    <update id="updateOrder2" parameterType="order" >
+        update o_caidou_order
+        <set>
+            <if test="prepay_id!=null and prepay_id!=''">
+                prepay_id=#{prepay_id},
+            </if>
+            <if test="updatetime!=null and updatetime!=''">
+                updatetime=#{updatetime},
+            </if>
+            ispay=#{ispay}
+        </set>
+        where ordernumber = #{ordernumber}
+    </update>
+
+
+
+    <update id="deleteOrder" parameterType="order">
+        update o_caidou_order
+
+        <set>
+            <if test="updatetime!=null and updatetime!=''">
+                updatetime=#{updatetime},
+            </if>
+            state=-1
+        </set>
+        where ordernumber = #{ordernumber}
+    </update>
+</mapper>

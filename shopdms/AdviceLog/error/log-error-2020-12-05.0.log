@@ -1,0 +1,3 @@
+2020-12-05 17:56:07.888 [http-nio-8336-exec-7] ERROR com.example.shopdms.controller.GoodsController - 修改轮播图失败，不匹配
+2020-12-05 17:56:11.432 [http-nio-8336-exec-9] ERROR com.example.shopdms.controller.GoodsController - 查询轮播图失败，不匹配
+2020-12-05 17:56:11.434 [http-nio-8336-exec-9] ERROR com.example.shopdms.controller.GoodsController - 查询出现异常

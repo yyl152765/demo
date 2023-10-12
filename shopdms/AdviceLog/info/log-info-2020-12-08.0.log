@@ -1,0 +1,1054 @@
+2020-12-08 00:00:52.392 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:00:52.743 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:01:02.220 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:01:02.518 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:01:22.540 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:01:22.767 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:01:29.843 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:01:30.087 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:01:33.620 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:01:33.881 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:01:37.711 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:01:37.940 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:01:41.266 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:01:41.523 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:01:51.632 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.shipnumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:01:51.950 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.shipnumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:01:55.978 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:01:56.192 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:02:01.063 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:02:01.311 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:02:05.321 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.shipnumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:02:05.587 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.shipnumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:02:23.672 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:02:23.902 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:02:27.103 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.shipnumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:02:27.327 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.shipnumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:02:36.416 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:02:36.672 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:02:53.735 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:02:54.751 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:03:05.764 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:03:06.030 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:03:12.222 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:03:12.563 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:04:58.412 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:04:58.686 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:05:03.099 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:05:03.441 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:05:45.411 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:05:45.662 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:05:47.774 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:05:48.067 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:05:48.927 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:05:49.158 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:05:53.882 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:05:54.176 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:05:59.629 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:05:59.864 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:06:05.948 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:06:06.211 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:06:09.617 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:06:10.084 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:06:25.546 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:06:26.047 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:06:35.854 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:06:36.128 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:06:38.845 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:06:39.104 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:06:44.081 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:06:44.376 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:06:53.772 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:06:54.078 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:07:44.907 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:07:45.172 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:07:59.442 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:07:59.826 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:08:10.853 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:08:11.110 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:08:21.093 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.shipnumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:08:21.386 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.shipnumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:08:26.752 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.shipnumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:08:27.364 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.shipnumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:08:34.626 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:08:34.903 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:08:37.203 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:08:37.809 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:08:37.981 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:08:38.142 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:08:55.454 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:08:55.703 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:09:04.347 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:09:04.555 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:10:09.834 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:10:10.482 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:11:10.256 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:11:10.502 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:11:19.529 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:11:19.781 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:15:53.413 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:15:53.645 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:16:01.393 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:16:01.638 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:16:05.205 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:16:05.731 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:16:14.807 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:16:15.033 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:16:20.380 [http-nio-8336-exec-7] INFO  c.example.shopdms.service.impl.AccountServiceImpl - 根据loginname=shop查询Account
+2020-12-08 00:16:20.382 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Account u WHERE u.login_admin= ?1--------sql语句-------------
+2020-12-08 00:16:29.323 [http-nio-8336-exec-8] INFO  c.example.shopdms.service.impl.AccountServiceImpl - 根据loginname=shop查询Account
+2020-12-08 00:16:29.324 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Account u WHERE u.login_admin= ?1--------sql语句-------------
+2020-12-08 00:16:32.329 [http-nio-8336-exec-9] INFO  c.example.shopdms.service.impl.AccountServiceImpl - 根据loginname=shop查询Account
+2020-12-08 00:16:32.330 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Account u WHERE u.login_admin= ?1--------sql语句-------------
+2020-12-08 00:16:35.765 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:16:36.219 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:16:40.019 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:16:40.265 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:16:43.806 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:16:44.181 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:02.834 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:03.116 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:03.885 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:04.130 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:11.766 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:12.353 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:15.846 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:16.040 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:17.044 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:17.279 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:23.886 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:24.550 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:25.491 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:25.748 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:27.830 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:28.076 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:38.280 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.ispay=?1 and u.openid=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 00:17:38.688 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.ispay=?1 and u.openid=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 00:17:43.985 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.ispay=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:44.517 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.ispay=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:49.169 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.ispay=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:17:49.429 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.ispay=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:18:00.168 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.ispay=?1 and u.openid=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 00:18:00.800 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.ispay=?1 and u.openid=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 00:18:50.105 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:18:50.348 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:18:58.800 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:18:59.018 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:19:19.846 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:19:20.115 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:19:44.047 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:19:44.278 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:19:48.898 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:19:49.134 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:19:50.796 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:19:51.045 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:20:02.436 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:20:02.659 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:20:07.091 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:20:07.325 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:20:24.491 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:20:24.717 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:23:56.281 [main] INFO  com.example.shopdms.ShopdmsApplication - Starting ShopdmsApplication using Java 1.8.0_221 on LAPTOP-QIC8RRKI with PID 15816 (D:\dsgc\shopdms\target\classes started by gzcaili in D:\dsgc\shopdms)
+2020-12-08 00:23:56.309 [main] INFO  com.example.shopdms.ShopdmsApplication - The following profiles are active: dev
+2020-12-08 00:24:02.105 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-08 00:24:02.315 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 112 ms. Found 0 JPA repository interfaces.
+2020-12-08 00:24:03.530 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.example.shopdms.async.AsyncTaskConfig$$EnhancerBySpringCGLIB$$77886f67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 00:24:05.706 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8336 (http)
+2020-12-08 00:24:05.758 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8336"]
+2020-12-08 00:24:05.762 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 00:24:05.763 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-08 00:24:06.456 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 00:24:06.457 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 9818 ms
+2020-12-08 00:24:07.456 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 00:24:07.672 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-08 00:24:08.004 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-08 00:24:09.154 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-08 00:24:09.774 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-08 00:24:10.558 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8336"]
+2020-12-08 00:24:10.683 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8336 (http) with context path ''
+2020-12-08 00:24:10.697 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-12-08 00:24:10.699 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-12-08 00:24:10.782 [main] INFO  com.example.shopdms.ShopdmsApplication - Started ShopdmsApplication in 18.76 seconds (JVM running for 26.869)
+2020-12-08 00:24:12.070 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-08 00:24:12.197 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-08 00:24:20.661 [task-1] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-08 00:24:20.707 [task-1] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-08 00:25:40.748 [http-nio-8336-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-08 00:25:40.750 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-08 00:25:40.758 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-12-08 00:25:41.546 [http-nio-8336-exec-1] INFO  c.example.shopdms.service.impl.AccountServiceImpl - 根据loginname=shop查询Account
+2020-12-08 00:25:41.623 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Account u WHERE u.login_admin= ?1--------sql语句-------------
+2020-12-08 00:25:47.148 [http-nio-8336-exec-3] INFO  c.example.shopdms.service.impl.AccountServiceImpl - 根据loginname=shop查询Account
+2020-12-08 00:25:47.150 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Account u WHERE u.login_admin= ?1--------sql语句-------------
+2020-12-08 00:25:55.916 [http-nio-8336-exec-4] INFO  c.example.shopdms.service.impl.AccountServiceImpl - 根据loginname=shop查询Account
+2020-12-08 00:25:55.917 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Account u WHERE u.login_admin= ?1--------sql语句-------------
+2020-12-08 00:25:58.997 [http-nio-8336-exec-2] INFO  c.example.shopdms.service.impl.AccountServiceImpl - 根据loginname=shop查询Account
+2020-12-08 00:25:58.998 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Account u WHERE u.login_admin= ?1--------sql语句-------------
+2020-12-08 00:26:01.305 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.GoodsType所有正常数据
+2020-12-08 00:26:01.307 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from GoodsType u WHERE u.state= ?1--------sql语句-------------
+2020-12-08 00:26:01.735 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=1
+2020-12-08 00:26:01.737 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 00:26:02.362 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=2
+2020-12-08 00:26:02.363 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 00:26:02.515 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=3
+2020-12-08 00:26:02.516 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 00:26:02.744 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=4
+2020-12-08 00:26:02.744 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 00:26:04.719 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:26:05.010 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:26:16.253 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:26:16.774 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:26:19.862 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:26:20.103 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:26:21.364 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:26:21.659 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:27:32.267 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:27:32.563 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:27:36.120 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:27:37.451 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:28:10.659 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:28:12.930 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:28:22.797 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:28:23.067 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:29:05.371 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:29:05.720 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:29:08.489 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:29:09.882 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:29:10.763 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:29:11.486 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.ordernumber like?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:30:40.346 [main] INFO  com.example.shopdms.ShopdmsApplication - Starting ShopdmsApplication using Java 1.8.0_221 on LAPTOP-QIC8RRKI with PID 21248 (D:\dsgc\shopdms\target\classes started by gzcaili in D:\dsgc\shopdms)
+2020-12-08 00:30:40.363 [main] INFO  com.example.shopdms.ShopdmsApplication - The following profiles are active: dev
+2020-12-08 00:30:43.152 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-08 00:30:43.233 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 0 JPA repository interfaces.
+2020-12-08 00:30:43.867 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.example.shopdms.async.AsyncTaskConfig$$EnhancerBySpringCGLIB$$5a56cd87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 00:30:45.089 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8336 (http)
+2020-12-08 00:30:45.120 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8336"]
+2020-12-08 00:30:45.123 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 00:30:45.124 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-08 00:30:45.542 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 00:30:45.543 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4950 ms
+2020-12-08 00:30:46.127 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 00:30:46.265 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-08 00:30:46.475 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-08 00:30:47.234 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-08 00:30:47.643 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-08 00:30:48.185 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8336"]
+2020-12-08 00:30:48.250 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8336 (http) with context path ''
+2020-12-08 00:30:48.260 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-12-08 00:30:48.262 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-12-08 00:30:48.299 [main] INFO  com.example.shopdms.ShopdmsApplication - Started ShopdmsApplication in 10.372 seconds (JVM running for 15.315)
+2020-12-08 00:31:01.271 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-08 00:31:01.363 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-08 00:31:03.142 [http-nio-8336-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-08 00:31:03.143 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-08 00:31:03.152 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-12-08 00:33:16.700 [main] INFO  com.example.shopdms.ShopdmsApplication - Starting ShopdmsApplication using Java 1.8.0_221 on LAPTOP-QIC8RRKI with PID 16136 (D:\dsgc\shopdms\target\classes started by gzcaili in D:\dsgc\shopdms)
+2020-12-08 00:33:16.715 [main] INFO  com.example.shopdms.ShopdmsApplication - The following profiles are active: dev
+2020-12-08 00:33:19.126 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-08 00:33:19.208 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 0 JPA repository interfaces.
+2020-12-08 00:33:19.803 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.example.shopdms.async.AsyncTaskConfig$$EnhancerBySpringCGLIB$$2bc36523] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 00:33:20.893 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8336 (http)
+2020-12-08 00:33:20.919 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8336"]
+2020-12-08 00:33:20.921 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 00:33:20.922 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-08 00:33:21.271 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 00:33:21.272 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4371 ms
+2020-12-08 00:33:21.775 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 00:33:21.952 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-08 00:33:22.156 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-08 00:33:23.031 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-08 00:33:23.479 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-08 00:33:23.938 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8336"]
+2020-12-08 00:33:23.998 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8336 (http) with context path ''
+2020-12-08 00:33:24.007 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-12-08 00:33:24.008 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-12-08 00:33:24.038 [main] INFO  com.example.shopdms.ShopdmsApplication - Started ShopdmsApplication in 9.934 seconds (JVM running for 14.353)
+2020-12-08 00:33:26.699 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-08 00:33:26.776 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-08 00:33:32.796 [task-1] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-08 00:33:32.841 [task-1] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-08 00:33:40.904 [http-nio-8336-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-08 00:33:40.905 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-08 00:33:40.911 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-08 00:33:41.636 [http-nio-8336-exec-1] INFO  c.example.shopdms.service.impl.AccountServiceImpl - 根据loginname=shop查询Account
+2020-12-08 00:33:41.722 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Account u WHERE u.login_admin= ?1--------sql语句-------------
+2020-12-08 00:33:46.350 [http-nio-8336-exec-2] INFO  c.example.shopdms.service.impl.AccountServiceImpl - 根据loginname=shop查询Account
+2020-12-08 00:33:46.351 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Account u WHERE u.login_admin= ?1--------sql语句-------------
+2020-12-08 00:33:48.462 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:33:48.747 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:33:55.947 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:33:56.281 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:36:22.727 [main] INFO  com.example.shopdms.ShopdmsApplication - Starting ShopdmsApplication using Java 1.8.0_221 on LAPTOP-QIC8RRKI with PID 13156 (D:\dsgc\shopdms\target\classes started by gzcaili in D:\dsgc\shopdms)
+2020-12-08 00:36:22.739 [main] INFO  com.example.shopdms.ShopdmsApplication - The following profiles are active: dev
+2020-12-08 00:36:25.245 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-08 00:36:25.332 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 0 JPA repository interfaces.
+2020-12-08 00:36:25.948 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.example.shopdms.async.AsyncTaskConfig$$EnhancerBySpringCGLIB$$90de107a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 00:36:27.031 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8336 (http)
+2020-12-08 00:36:27.060 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8336"]
+2020-12-08 00:36:27.062 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 00:36:27.063 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-08 00:36:27.412 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 00:36:27.412 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4467 ms
+2020-12-08 00:36:27.914 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 00:36:28.092 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-08 00:36:28.300 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-08 00:36:29.102 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-08 00:36:29.560 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-08 00:36:30.073 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8336"]
+2020-12-08 00:36:30.133 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8336 (http) with context path ''
+2020-12-08 00:36:30.141 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-12-08 00:36:30.142 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-12-08 00:36:30.169 [main] INFO  com.example.shopdms.ShopdmsApplication - Started ShopdmsApplication in 10.066 seconds (JVM running for 14.52)
+2020-12-08 00:36:39.158 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-08 00:36:39.241 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-08 00:37:28.758 [main] INFO  com.example.shopdms.ShopdmsApplication - Starting ShopdmsApplication using Java 1.8.0_221 on LAPTOP-QIC8RRKI with PID 23428 (D:\dsgc\shopdms\target\classes started by gzcaili in D:\dsgc\shopdms)
+2020-12-08 00:37:28.772 [main] INFO  com.example.shopdms.ShopdmsApplication - The following profiles are active: dev
+2020-12-08 00:37:32.646 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-08 00:37:32.764 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75 ms. Found 0 JPA repository interfaces.
+2020-12-08 00:37:33.656 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.example.shopdms.async.AsyncTaskConfig$$EnhancerBySpringCGLIB$$98fcc71f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 00:37:35.327 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8336 (http)
+2020-12-08 00:37:35.399 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8336"]
+2020-12-08 00:37:35.404 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 00:37:35.406 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-08 00:37:35.957 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 00:37:35.958 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6916 ms
+2020-12-08 00:37:36.941 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 00:37:37.185 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-08 00:37:37.598 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-08 00:37:38.876 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-08 00:37:39.504 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-08 00:37:40.386 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8336"]
+2020-12-08 00:37:40.491 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8336 (http) with context path ''
+2020-12-08 00:37:40.504 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-12-08 00:37:40.507 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-12-08 00:37:40.550 [main] INFO  com.example.shopdms.ShopdmsApplication - Started ShopdmsApplication in 15.604 seconds (JVM running for 25.938)
+2020-12-08 00:38:06.457 [http-nio-8336-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-08 00:38:06.458 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-08 00:38:06.465 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-08 00:38:24.368 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-08 00:38:24.467 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-08 00:38:33.182 [task-1] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-08 00:38:33.226 [task-1] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-08 00:38:33.693 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:38:33.693 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:38:33.693 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:38:33.693 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:38:34.592 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:38:34.592 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:38:35.454 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:38:35.454 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:38:39.644 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:38:39.906 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:38:46.789 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:38:47.132 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:38:52.969 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:38:53.313 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:39:03.799 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:39:04.063 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 00:39:26.960 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:39:46.730 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:43:05.681 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:43:06.785 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:43:09.991 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:43:10.247 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:43:20.640 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:43:20.856 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:43:44.407 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:43:44.608 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:43:47.602 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:43:47.810 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:43:55.873 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:43:56.107 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:46:48.187 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:46:48.407 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:47:57.738 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:47:58.219 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:48:57.179 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:48:57.818 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:49:31.498 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:49:35.782 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:49:42.878 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:49:42.878 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:49:53.773 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.GoodsType所有正常数据
+2020-12-08 00:49:53.774 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from GoodsType u WHERE u.state= ?1--------sql语句-------------
+2020-12-08 00:49:54.171 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=1
+2020-12-08 00:49:54.172 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 00:49:54.387 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=2
+2020-12-08 00:49:54.388 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 00:49:54.612 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=3
+2020-12-08 00:49:54.612 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 00:49:54.738 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=4
+2020-12-08 00:49:54.739 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 00:50:04.996 [http-nio-8336-exec-1] INFO  com.example.shopdms.controller.GoodsController - {"id":1}
+2020-12-08 00:50:04.997 [http-nio-8336-exec-1] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.GoodsTypeid=1
+2020-12-08 00:50:09.191 [http-nio-8336-exec-3] INFO  com.example.shopdms.controller.GoodsController - {"id":2}
+2020-12-08 00:50:09.191 [http-nio-8336-exec-3] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.GoodsTypeid=2
+2020-12-08 00:50:45.750 [http-nio-8336-exec-6] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.GoodsType所有正常数据
+2020-12-08 00:50:45.751 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from GoodsType u WHERE u.state= ?1--------sql语句-------------
+2020-12-08 00:50:46.003 [http-nio-8336-exec-6] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=1
+2020-12-08 00:50:46.004 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 00:50:46.209 [http-nio-8336-exec-6] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=2
+2020-12-08 00:50:46.210 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 00:50:46.348 [http-nio-8336-exec-6] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=3
+2020-12-08 00:50:46.349 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 00:50:46.492 [http-nio-8336-exec-6] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=4
+2020-12-08 00:50:46.492 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 00:50:48.045 [http-nio-8336-exec-8] INFO  com.example.shopdms.controller.GoodsController - {"id":1}
+2020-12-08 00:50:48.045 [http-nio-8336-exec-8] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.GoodsTypeid=1
+2020-12-08 00:50:50.576 [http-nio-8336-exec-10] INFO  com.example.shopdms.controller.GoodsController - {"id":1}
+2020-12-08 00:50:50.577 [http-nio-8336-exec-10] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.GoodsTypeid=1
+2020-12-08 00:50:59.738 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.GoodsType所有正常数据
+2020-12-08 00:50:59.739 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from GoodsType u WHERE u.state= ?1--------sql语句-------------
+2020-12-08 00:50:59.985 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=1
+2020-12-08 00:50:59.985 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 00:51:00.126 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=2
+2020-12-08 00:51:00.126 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 00:51:00.249 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=3
+2020-12-08 00:51:00.250 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 00:51:00.478 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=4
+2020-12-08 00:51:00.479 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 00:51:01.952 [http-nio-8336-exec-5] INFO  com.example.shopdms.controller.GoodsController - {"id":1}
+2020-12-08 00:51:01.953 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.GoodsTypeid=1
+2020-12-08 00:52:48.628 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:52:48.937 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:53:36.836 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:53:37.083 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:53:54.913 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:53:55.474 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:56:19.152 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:56:20.162 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:56:54.109 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:56:54.571 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:57:31.082 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:57:31.744 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 00:57:47.378 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 00:57:47.739 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 00:57:56.186 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 00:57:56.464 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 00:58:01.260 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 00:58:01.521 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 00:58:02.207 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 00:58:02.477 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 00:58:03.881 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 00:58:04.149 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 01:00:56.344 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 01:00:56.601 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 01:00:57.070 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 01:00:57.236 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 01:00:58.903 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 01:00:59.168 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 01:01:44.713 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 01:01:45.409 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 01:01:45.487 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 01:01:45.932 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 01:01:47.627 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 01:01:47.907 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 01:01:50.720 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 01:01:50.951 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 01:01:57.517 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 01:01:57.767 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 01:02:36.042 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 01:02:36.367 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.createtime>=?1 and u.createtime<=?2 and u.state !=?3 --------sql语句-------------
+2020-12-08 01:02:54.746 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 01:02:55.536 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 01:02:57.801 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 01:02:58.648 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 01:03:00.973 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 01:03:01.686 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 01:03:03.351 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 01:03:04.130 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 01:04:49.363 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 01:04:49.576 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 01:04:51.200 [http-nio-8336-exec-9] INFO  c.example.shopdms.service.impl.AccountServiceImpl - 根据loginname=shop查询Account
+2020-12-08 01:04:51.202 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Account u WHERE u.login_admin= ?1--------sql语句-------------
+2020-12-08 01:07:05.711 [http-nio-8336-exec-10] INFO  c.example.shopdms.service.impl.AccountServiceImpl - 根据loginname=shop查询Account
+2020-12-08 01:07:05.713 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Account u WHERE u.login_admin= ?1--------sql语句-------------
+2020-12-08 01:07:08.108 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.GoodsType所有正常数据
+2020-12-08 01:07:08.109 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from GoodsType u WHERE u.state= ?1--------sql语句-------------
+2020-12-08 01:07:08.429 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=1
+2020-12-08 01:07:08.429 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 01:07:08.570 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=2
+2020-12-08 01:07:08.570 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 01:07:08.684 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=3
+2020-12-08 01:07:08.685 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 01:07:08.888 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=4
+2020-12-08 01:07:08.888 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 01:07:12.639 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 01:07:12.886 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 01:07:14.746 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 01:07:15.034 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 01:07:15.554 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 01:07:15.803 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 01:07:17.551 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 01:07:17.918 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 11:38:54.824 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-08 11:38:54.868 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-08 11:38:54.869 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-12-08 11:38:54.897 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-12-08 13:51:25.462 [main] INFO  com.example.shopdms.ShopdmsApplication - Starting ShopdmsApplication using Java 1.8.0_221 on LAPTOP-QIC8RRKI with PID 2060 (D:\dsgc\shopdms\target\classes started by gzcaili in D:\dsgc\shopdms)
+2020-12-08 13:51:25.477 [main] INFO  com.example.shopdms.ShopdmsApplication - The following profiles are active: dev
+2020-12-08 13:51:28.425 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-08 13:51:28.504 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 0 JPA repository interfaces.
+2020-12-08 13:51:29.104 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.example.shopdms.async.AsyncTaskConfig$$EnhancerBySpringCGLIB$$a5d3e655] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 13:51:30.378 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8336 (http)
+2020-12-08 13:51:30.415 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8336"]
+2020-12-08 13:51:30.417 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 13:51:30.418 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-08 13:51:30.880 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 13:51:30.881 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5155 ms
+2020-12-08 13:51:31.574 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 13:51:31.776 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-08 13:51:32.010 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-08 13:51:32.952 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-08 13:51:33.462 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-08 13:51:33.973 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8336"]
+2020-12-08 13:51:34.053 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8336 (http) with context path ''
+2020-12-08 13:51:34.063 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-12-08 13:51:34.065 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-12-08 13:51:34.096 [main] INFO  com.example.shopdms.ShopdmsApplication - Started ShopdmsApplication in 11.256 seconds (JVM running for 16.646)
+2020-12-08 13:51:34.387 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-08 13:51:34.469 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-08 13:51:37.410 [task-1] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-08 13:51:37.444 [task-1] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-08 13:51:55.960 [http-nio-8336-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-08 13:51:55.962 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-08 13:51:55.966 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-12-08 13:51:56.626 [http-nio-8336-exec-1] INFO  c.example.shopdms.service.impl.AccountServiceImpl - 根据loginname=shop查询Account
+2020-12-08 13:51:56.689 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Account u WHERE u.login_admin= ?1--------sql语句-------------
+2020-12-08 13:52:00.622 [http-nio-8336-exec-2] INFO  c.example.shopdms.service.impl.AccountServiceImpl - 根据loginname=shop查询Account
+2020-12-08 13:52:00.623 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Account u WHERE u.login_admin= ?1--------sql语句-------------
+2020-12-08 13:52:06.896 [http-nio-8336-exec-3] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.GoodsType所有正常数据
+2020-12-08 13:52:06.897 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from GoodsType u WHERE u.state= ?1--------sql语句-------------
+2020-12-08 13:52:06.951 [http-nio-8336-exec-3] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=1
+2020-12-08 13:52:06.952 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 13:52:06.996 [http-nio-8336-exec-3] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=2
+2020-12-08 13:52:06.997 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 13:52:07.022 [http-nio-8336-exec-3] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=3
+2020-12-08 13:52:07.023 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 13:52:07.050 [http-nio-8336-exec-3] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=4
+2020-12-08 13:52:07.050 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 13:52:08.726 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 13:52:08.780 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 13:52:11.459 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 13:52:11.498 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 13:52:14.069 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 13:52:14.114 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 13:52:15.180 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 13:52:15.216 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 13:54:19.820 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 13:54:19.858 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 13:55:47.253 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 13:55:47.290 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 13:56:11.189 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 13:56:11.239 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 13:58:50.634 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 13:58:50.672 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 13:58:51.332 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 13:58:51.362 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:34:36.868 [main] INFO  com.example.shopdms.ShopdmsApplication - Starting ShopdmsApplication using Java 1.8.0_221 on LAPTOP-QIC8RRKI with PID 3740 (D:\dsgc\shopdms\target\classes started by gzcaili in D:\dsgc\shopdms)
+2020-12-08 15:34:36.882 [main] INFO  com.example.shopdms.ShopdmsApplication - The following profiles are active: dev
+2020-12-08 15:34:39.730 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-08 15:34:39.819 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 0 JPA repository interfaces.
+2020-12-08 15:34:40.530 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.example.shopdms.async.AsyncTaskConfig$$EnhancerBySpringCGLIB$$9092e52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 15:34:41.823 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8336 (http)
+2020-12-08 15:34:41.856 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8336"]
+2020-12-08 15:34:41.858 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 15:34:41.859 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-08 15:34:42.302 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 15:34:42.304 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5200 ms
+2020-12-08 15:34:42.917 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 15:34:43.157 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-08 15:34:43.429 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-08 15:34:44.254 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-08 15:34:44.708 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-08 15:34:45.174 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8336"]
+2020-12-08 15:34:45.245 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8336 (http) with context path ''
+2020-12-08 15:34:45.254 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-12-08 15:34:45.255 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-12-08 15:34:45.283 [main] INFO  com.example.shopdms.ShopdmsApplication - Started ShopdmsApplication in 10.961 seconds (JVM running for 15.623)
+2020-12-08 15:34:45.485 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-08 15:34:45.566 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-08 15:34:49.421 [task-1] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-08 15:34:49.453 [task-1] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-08 15:34:54.514 [http-nio-8336-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-08 15:34:54.515 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-08 15:34:54.521 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-08 15:34:54.971 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:34:55.476 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:35:18.773 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:35:18.814 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:36:14.156 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:36:14.216 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:36:56.395 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:36:56.432 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:36:58.595 [http-nio-8336-exec-8] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 15:36:58.596 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:36:58.863 [http-nio-8336-exec-8] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:37:28.278 [http-nio-8336-exec-9] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=70 and state =1
+2020-12-08 15:37:28.279 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:37:28.339 [http-nio-8336-exec-9] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:37:34.077 [http-nio-8336-exec-10] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=71 and state =1
+2020-12-08 15:37:34.078 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:37:34.327 [http-nio-8336-exec-10] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:37:41.055 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:37:41.119 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:37:43.923 [http-nio-8336-exec-2] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=86 and state =1
+2020-12-08 15:37:43.923 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:37:43.978 [http-nio-8336-exec-2] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=18
+2020-12-08 15:38:03.311 [http-nio-8336-exec-3] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=82 and state =1
+2020-12-08 15:38:03.312 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:38:03.382 [http-nio-8336-exec-3] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:38:07.609 [http-nio-8336-exec-4] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=84 and state =1
+2020-12-08 15:38:07.611 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:38:07.666 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:38:11.454 [http-nio-8336-exec-5] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=88 and state =1
+2020-12-08 15:38:11.454 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:38:11.516 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=29
+2020-12-08 15:38:11.565 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=29
+2020-12-08 15:39:09.396 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:39:09.466 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:39:11.243 [http-nio-8336-exec-7] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 15:39:11.244 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:39:11.299 [http-nio-8336-exec-7] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:39:17.356 [http-nio-8336-exec-8] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=70 and state =1
+2020-12-08 15:39:17.357 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:39:17.649 [http-nio-8336-exec-8] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:39:25.299 [http-nio-8336-exec-9] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 15:39:25.300 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:39:25.359 [http-nio-8336-exec-9] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:40:16.455 [http-nio-8336-exec-10] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=71 and state =1
+2020-12-08 15:40:16.456 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:40:16.528 [http-nio-8336-exec-10] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:41:05.504 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:41:05.542 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:41:17.926 [http-nio-8336-exec-2] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 15:41:17.927 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:41:17.981 [http-nio-8336-exec-2] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:42:14.170 [http-nio-8336-exec-3] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 15:42:14.171 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:42:14.234 [http-nio-8336-exec-3] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:42:36.295 [http-nio-8336-exec-4] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 15:42:36.296 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:42:36.357 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:42:54.198 [http-nio-8336-exec-5] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 15:42:54.199 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:42:54.264 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:43:17.161 [http-nio-8336-exec-6] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 15:43:17.162 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:43:17.235 [http-nio-8336-exec-6] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:43:27.222 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:43:27.264 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:43:28.563 [http-nio-8336-exec-8] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 15:43:28.563 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:43:28.629 [http-nio-8336-exec-8] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:43:38.157 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:43:38.203 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:43:40.099 [http-nio-8336-exec-10] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 15:43:40.099 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:43:40.163 [http-nio-8336-exec-10] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:43:50.889 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:43:50.924 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:43:52.341 [http-nio-8336-exec-2] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 15:43:52.342 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:43:52.400 [http-nio-8336-exec-2] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:44:01.229 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:44:01.266 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:44:03.107 [http-nio-8336-exec-4] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 15:44:03.108 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:44:03.163 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:44:23.027 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:44:23.070 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:44:24.652 [http-nio-8336-exec-6] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 15:44:24.653 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:44:24.720 [http-nio-8336-exec-6] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:44:36.883 [http-nio-8336-exec-7] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 15:44:36.884 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:44:37.137 [http-nio-8336-exec-7] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:44:56.872 [http-nio-8336-exec-8] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=73 and state =1
+2020-12-08 15:44:56.874 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:44:56.939 [http-nio-8336-exec-8] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:45:13.451 [http-nio-8336-exec-9] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 15:45:13.452 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:45:13.536 [http-nio-8336-exec-9] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:45:18.028 [http-nio-8336-exec-10] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=74 and state =1
+2020-12-08 15:45:18.029 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:45:18.098 [http-nio-8336-exec-10] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:45:23.172 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:45:23.276 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:45:28.544 [http-nio-8336-exec-2] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=79 and state =1
+2020-12-08 15:45:28.545 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:45:28.614 [http-nio-8336-exec-2] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=18
+2020-12-08 15:45:42.056 [http-nio-8336-exec-3] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=79 and state =1
+2020-12-08 15:45:42.056 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:45:42.111 [http-nio-8336-exec-3] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=18
+2020-12-08 15:45:45.001 [http-nio-8336-exec-4] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=84 and state =1
+2020-12-08 15:45:45.001 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:45:45.065 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:45:48.207 [http-nio-8336-exec-5] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=87 and state =1
+2020-12-08 15:45:48.207 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:45:48.263 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=1
+2020-12-08 15:45:53.009 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:45:53.047 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:45:54.963 [http-nio-8336-exec-7] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=89 and state =1
+2020-12-08 15:45:54.964 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:45:55.023 [http-nio-8336-exec-7] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=1
+2020-12-08 15:45:59.777 [http-nio-8336-exec-8] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=89 and state =1
+2020-12-08 15:45:59.778 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:45:59.836 [http-nio-8336-exec-8] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=1
+2020-12-08 15:46:03.675 [http-nio-8336-exec-9] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=95 and state =1
+2020-12-08 15:46:03.676 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:46:03.733 [http-nio-8336-exec-9] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=18
+2020-12-08 15:46:06.086 [http-nio-8336-exec-10] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=97 and state =1
+2020-12-08 15:46:06.086 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:46:06.144 [http-nio-8336-exec-10] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=18
+2020-12-08 15:46:08.263 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:46:08.524 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:46:10.127 [http-nio-8336-exec-2] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=84 and state =1
+2020-12-08 15:46:10.127 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:46:10.205 [http-nio-8336-exec-2] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:46:13.168 [http-nio-8336-exec-3] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=87 and state =1
+2020-12-08 15:46:13.169 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:46:13.244 [http-nio-8336-exec-3] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=1
+2020-12-08 15:46:15.078 [http-nio-8336-exec-4] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=85 and state =1
+2020-12-08 15:46:15.078 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:46:15.134 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=18
+2020-12-08 15:46:15.196 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=18
+2020-12-08 15:46:15.217 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=18
+2020-12-08 15:47:05.178 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:47:05.219 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:47:06.382 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:47:06.431 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:51:10.824 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:51:10.900 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:51:13.037 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:51:13.080 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:51:16.503 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:51:16.562 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:52:42.924 [http-nio-8336-exec-10] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=89 and state =1
+2020-12-08 15:52:42.925 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:52:42.983 [http-nio-8336-exec-10] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=1
+2020-12-08 15:52:45.820 [http-nio-8336-exec-1] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=90 and state =1
+2020-12-08 15:52:45.821 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:52:45.875 [http-nio-8336-exec-1] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=30
+2020-12-08 15:52:45.911 [http-nio-8336-exec-1] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=30
+2020-12-08 15:53:09.008 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:53:09.045 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:53:11.613 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:53:11.659 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:53:22.067 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:53:22.109 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:53:27.484 [http-nio-8336-exec-5] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 15:53:27.484 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:53:27.537 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:53:40.700 [http-nio-8336-exec-6] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 15:53:40.701 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:53:40.757 [http-nio-8336-exec-6] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:53:43.066 [http-nio-8336-exec-7] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 15:53:43.066 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 15:53:43.129 [http-nio-8336-exec-7] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 15:54:16.504 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:54:16.540 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:57:37.370 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:57:37.407 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:57:46.663 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:57:46.702 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:57:56.564 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 15:57:56.599 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:07:04.084 [http-nio-8336-exec-2] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 16:07:04.085 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 16:07:04.365 [http-nio-8336-exec-2] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 16:07:07.302 [http-nio-8336-exec-3] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 16:07:07.302 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 16:07:07.363 [http-nio-8336-exec-3] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 16:07:26.548 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:07:26.586 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:07:28.097 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:07:28.132 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:07:29.266 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:07:29.301 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:07:32.076 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:07:32.110 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:07:32.993 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:07:33.024 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:07:34.187 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:07:34.224 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:16:42.083 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:16:42.145 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:17:28.538 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:17:28.636 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:18:56.137 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:18:56.212 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:19:49.119 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:19:49.152 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:19:52.966 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:19:53.022 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:20:33.189 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:20:33.226 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:21:10.983 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:21:11.019 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:21:53.862 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:21:53.898 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:23:22.662 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:23:22.701 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:23:34.539 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:23:34.578 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:23:50.918 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:23:50.950 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:37:55.750 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:37:55.791 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 16:37:58.030 [http-nio-8336-exec-2] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=69 and state =1
+2020-12-08 16:37:58.031 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 16:37:58.400 [http-nio-8336-exec-2] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=7
+2020-12-08 16:53:52.775 [main] INFO  com.example.shopdms.ShopdmsApplication - Starting ShopdmsApplication using Java 1.8.0_221 on LAPTOP-QIC8RRKI with PID 12184 (D:\dsgc\shopdms\target\classes started by gzcaili in D:\dsgc\shopdms)
+2020-12-08 16:53:52.787 [main] INFO  com.example.shopdms.ShopdmsApplication - The following profiles are active: dev
+2020-12-08 16:53:56.378 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-08 16:53:56.466 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 0 JPA repository interfaces.
+2020-12-08 16:53:57.179 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.example.shopdms.async.AsyncTaskConfig$$EnhancerBySpringCGLIB$$b65ae32d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 16:53:58.495 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8336 (http)
+2020-12-08 16:53:58.525 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8336"]
+2020-12-08 16:53:58.526 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 16:53:58.527 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-08 16:53:58.896 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 16:53:58.897 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5843 ms
+2020-12-08 16:53:59.496 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 16:53:59.638 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-08 16:53:59.866 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-08 16:54:00.768 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-08 16:54:01.226 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-08 16:54:01.682 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8336"]
+2020-12-08 16:54:01.759 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8336 (http) with context path ''
+2020-12-08 16:54:01.771 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-12-08 16:54:01.773 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-12-08 16:54:01.816 [main] INFO  com.example.shopdms.ShopdmsApplication - Started ShopdmsApplication in 11.995 seconds (JVM running for 17.419)
+2020-12-08 16:54:02.046 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-08 16:54:02.137 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-08 16:54:05.607 [task-1] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-08 16:54:05.668 [task-1] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-08 17:00:22.801 [http-nio-8336-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-08 17:00:22.803 [http-nio-8336-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-08 17:00:22.807 [http-nio-8336-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-12-08 17:00:23.338 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:00:23.939 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:03:07.848 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:03:07.898 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:03:36.691 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:03:36.726 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:04:14.995 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:04:15.030 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:05:28.440 [main] INFO  com.example.shopdms.ShopdmsApplication - Starting ShopdmsApplication using Java 1.8.0_221 on LAPTOP-QIC8RRKI with PID 2832 (D:\dsgc\shopdms\target\classes started by gzcaili in D:\dsgc\shopdms)
+2020-12-08 17:05:28.455 [main] INFO  com.example.shopdms.ShopdmsApplication - The following profiles are active: dev
+2020-12-08 17:05:31.215 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-08 17:05:31.295 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 0 JPA repository interfaces.
+2020-12-08 17:05:31.865 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.example.shopdms.async.AsyncTaskConfig$$EnhancerBySpringCGLIB$$29c224c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 17:05:32.914 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8336 (http)
+2020-12-08 17:05:32.941 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8336"]
+2020-12-08 17:05:32.943 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 17:05:32.944 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-08 17:05:33.297 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 17:05:33.298 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4622 ms
+2020-12-08 17:05:33.782 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 17:05:33.956 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-08 17:05:34.162 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-08 17:05:34.928 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-08 17:05:35.332 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-08 17:05:35.792 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8336"]
+2020-12-08 17:05:35.858 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8336 (http) with context path ''
+2020-12-08 17:05:35.868 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-12-08 17:05:35.869 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-12-08 17:05:35.901 [main] INFO  com.example.shopdms.ShopdmsApplication - Started ShopdmsApplication in 10.074 seconds (JVM running for 15.069)
+2020-12-08 17:05:36.083 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-08 17:05:36.158 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-08 17:05:40.727 [task-1] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-08 17:05:40.760 [task-1] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-08 17:07:26.708 [http-nio-8336-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-08 17:07:26.709 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-08 17:07:26.716 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-12-08 17:07:27.235 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:07:27.781 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:07:58.334 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:07:58.370 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:07:59.368 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:07:59.402 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:08:38.308 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:08:38.343 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:08:40.066 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:08:40.106 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:08:40.905 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:08:40.932 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:08:43.343 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:08:43.380 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:09:21.671 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:09:21.705 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:09:28.071 [http-nio-8336-exec-9] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from order where id=69
+2020-12-08 17:09:28.172 [http-nio-8336-exec-9] INFO  com.example.shopdms.service.impl.OrderServiceImpl - 录入单号shipnumber=12
+2020-12-08 17:09:29.965 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:09:30.002 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:10:28.269 [main] INFO  com.example.shopdms.ShopdmsApplication - Starting ShopdmsApplication using Java 1.8.0_221 on LAPTOP-QIC8RRKI with PID 17412 (D:\dsgc\shopdms\target\classes started by gzcaili in D:\dsgc\shopdms)
+2020-12-08 17:10:28.280 [main] INFO  com.example.shopdms.ShopdmsApplication - The following profiles are active: dev
+2020-12-08 17:10:30.837 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-08 17:10:30.910 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 0 JPA repository interfaces.
+2020-12-08 17:10:31.511 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.example.shopdms.async.AsyncTaskConfig$$EnhancerBySpringCGLIB$$fc1a42c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 17:10:32.629 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8336 (http)
+2020-12-08 17:10:32.660 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8336"]
+2020-12-08 17:10:32.662 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 17:10:32.663 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-08 17:10:33.092 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 17:10:33.093 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4638 ms
+2020-12-08 17:10:33.628 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 17:10:33.813 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-08 17:10:34.040 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-08 17:10:34.825 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-08 17:10:35.231 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-08 17:10:35.679 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8336"]
+2020-12-08 17:10:35.746 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8336 (http) with context path ''
+2020-12-08 17:10:35.754 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-12-08 17:10:35.755 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-12-08 17:10:35.782 [main] INFO  com.example.shopdms.ShopdmsApplication - Started ShopdmsApplication in 10.004 seconds (JVM running for 14.797)
+2020-12-08 17:10:35.955 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-08 17:10:36.026 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-08 17:10:40.237 [task-1] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-08 17:10:40.267 [task-1] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-08 17:10:53.718 [http-nio-8336-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-08 17:10:53.720 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-08 17:10:53.723 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-12-08 17:10:54.137 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:10:54.629 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:10:59.640 [http-nio-8336-exec-2] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from order where id=69
+2020-12-08 17:10:59.759 [http-nio-8336-exec-2] INFO  com.example.shopdms.service.impl.OrderServiceImpl - 录入单号shipnumber=12
+2020-12-08 17:11:01.457 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:11:01.495 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:13:48.803 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:13:48.862 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:14:11.453 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:14:11.518 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:15:20.777 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:15:20.821 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:19:36.521 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:19:37.115 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:19:59.161 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:19:59.202 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:21:36.913 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:21:36.949 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:21:41.377 [http-nio-8336-exec-10] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from order where id=69
+2020-12-08 17:21:41.415 [http-nio-8336-exec-10] INFO  com.example.shopdms.service.impl.OrderServiceImpl - 录入单号shipnumber=12
+2020-12-08 17:21:42.916 [http-nio-8336-exec-1] INFO  c.example.shopdms.service.impl.AccountServiceImpl - 根据loginname=shop查询Account
+2020-12-08 17:21:42.918 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Account u WHERE u.login_admin= ?1--------sql语句-------------
+2020-12-08 17:21:51.416 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:21:51.462 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:22:28.304 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:22:28.353 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:22:44.179 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:22:44.448 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:22:52.028 [http-nio-8336-exec-5] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from order where id=69
+2020-12-08 17:22:52.080 [http-nio-8336-exec-5] INFO  com.example.shopdms.service.impl.OrderServiceImpl - 录入单号shipnumber=12
+2020-12-08 17:23:35.093 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:23:35.128 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:23:55.407 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:23:55.448 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:24:00.905 [http-nio-8336-exec-8] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from order where id=69
+2020-12-08 17:24:00.941 [http-nio-8336-exec-8] INFO  com.example.shopdms.service.impl.OrderServiceImpl - 录入单号shipnumber=12
+2020-12-08 17:24:02.228 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:24:02.263 [http-nio-8336-exec-9] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:24:53.854 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:24:53.895 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:25:06.285 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:25:06.327 [http-nio-8336-exec-1] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:25:11.128 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 17:25:11.171 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 17:25:14.642 [http-nio-8336-exec-3] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from order where id=69
+2020-12-08 17:25:14.682 [http-nio-8336-exec-3] INFO  com.example.shopdms.service.impl.OrderServiceImpl - 录入单号shipnumber=12
+2020-12-08 17:25:15.781 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 17:25:15.813 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.openid=?1 and u.state !=?2 --------sql语句-------------
+2020-12-08 17:25:20.209 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:25:20.246 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:25:38.979 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:25:39.018 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:26:32.233 [http-nio-8336-exec-7] INFO  c.example.shopdms.service.impl.AccountServiceImpl - 根据loginname=shop查询Account
+2020-12-08 17:26:32.234 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Account u WHERE u.login_admin= ?1--------sql语句-------------
+2020-12-08 17:26:34.333 [http-nio-8336-exec-8] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.GoodsType所有正常数据
+2020-12-08 17:26:34.334 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from GoodsType u WHERE u.state= ?1--------sql语句-------------
+2020-12-08 17:26:34.381 [http-nio-8336-exec-8] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=1
+2020-12-08 17:26:34.382 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:26:34.420 [http-nio-8336-exec-8] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=2
+2020-12-08 17:26:34.421 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:26:34.447 [http-nio-8336-exec-8] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=3
+2020-12-08 17:26:34.448 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:26:34.468 [http-nio-8336-exec-8] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=4
+2020-12-08 17:26:34.469 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:26:38.477 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:26:38.514 [http-nio-8336-exec-10] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:26:42.271 [http-nio-8336-exec-2] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.GoodsType所有正常数据
+2020-12-08 17:26:42.272 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from GoodsType u WHERE u.state= ?1--------sql语句-------------
+2020-12-08 17:26:42.309 [http-nio-8336-exec-2] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=1
+2020-12-08 17:26:42.310 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:26:42.346 [http-nio-8336-exec-2] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=2
+2020-12-08 17:26:42.347 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:26:42.378 [http-nio-8336-exec-2] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=3
+2020-12-08 17:26:42.379 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:26:42.400 [http-nio-8336-exec-2] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=4
+2020-12-08 17:26:42.401 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:32:47.857 [http-nio-8336-exec-6] INFO  com.example.shopdms.entity.Sftp - sftp connect by host:111.230.244.78 username:root
+2020-12-08 17:32:47.872 [http-nio-8336-exec-6] INFO  com.example.shopdms.entity.Sftp - Session is build
+2020-12-08 17:32:51.173 [http-nio-8336-exec-6] INFO  com.example.shopdms.entity.Sftp - Session is connected
+2020-12-08 17:32:51.252 [http-nio-8336-exec-6] INFO  com.example.shopdms.entity.Sftp - channel is connected
+2020-12-08 17:32:51.253 [http-nio-8336-exec-6] INFO  com.example.shopdms.entity.Sftp - sftp server host:[111.230.244.78] port:[22] is connect successfull
+2020-12-08 17:32:51.439 [http-nio-8336-exec-6] INFO  com.example.shopdms.entity.Sftp - file:b66441ca0e284149ba21b7cb64eb8ee2.jpg is upload successful
+2020-12-08 17:32:51.440 [http-nio-8336-exec-6] INFO  com.example.shopdms.entity.Sftp - sftp is closed already
+2020-12-08 17:32:51.447 [http-nio-8336-exec-6] INFO  com.example.shopdms.entity.Sftp - sshSession is closed already
+2020-12-08 17:32:54.446 [http-nio-8336-exec-7] INFO  com.example.shopdms.controller.GoodsController - 操作成功
+2020-12-08 17:35:28.041 [http-nio-8336-exec-6] INFO  com.example.shopdms.controller.GoodsController - 操作成功
+2020-12-08 17:37:43.902 [http-nio-8336-exec-6] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.GoodsType所有正常数据
+2020-12-08 17:37:43.903 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from GoodsType u WHERE u.state= ?1--------sql语句-------------
+2020-12-08 17:37:43.941 [http-nio-8336-exec-6] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=1
+2020-12-08 17:37:43.942 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:37:43.962 [http-nio-8336-exec-6] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=2
+2020-12-08 17:37:43.963 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:37:43.994 [http-nio-8336-exec-6] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=3
+2020-12-08 17:37:43.995 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:37:44.014 [http-nio-8336-exec-6] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=4
+2020-12-08 17:37:44.015 [http-nio-8336-exec-6] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:38:33.680 [http-nio-8336-exec-2] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.GoodsType所有正常数据
+2020-12-08 17:38:33.681 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from GoodsType u WHERE u.state= ?1--------sql语句-------------
+2020-12-08 17:38:33.721 [http-nio-8336-exec-2] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=1
+2020-12-08 17:38:33.722 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:38:33.745 [http-nio-8336-exec-2] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=2
+2020-12-08 17:38:33.745 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:38:33.765 [http-nio-8336-exec-2] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=3
+2020-12-08 17:38:33.765 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:38:33.783 [http-nio-8336-exec-2] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=4
+2020-12-08 17:38:33.783 [http-nio-8336-exec-2] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:38:49.823 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:38:49.854 [http-nio-8336-exec-3] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:39:03.190 [http-nio-8336-exec-4] INFO  c.example.shopdms.service.impl.AccountServiceImpl - 根据loginname=shop查询Account
+2020-12-08 17:39:03.191 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Account u WHERE u.login_admin= ?1--------sql语句-------------
+2020-12-08 17:39:05.037 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.GoodsType所有正常数据
+2020-12-08 17:39:05.038 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from GoodsType u WHERE u.state= ?1--------sql语句-------------
+2020-12-08 17:39:05.076 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=1
+2020-12-08 17:39:05.077 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:39:05.109 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=2
+2020-12-08 17:39:05.110 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:39:05.143 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=3
+2020-12-08 17:39:05.143 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:39:05.163 [http-nio-8336-exec-5] INFO  c.e.shopdms.service.impl.GoodsTypeServiceImpl - 查询com.example.shopdms.entity.Goods typeid=4
+2020-12-08 17:39:05.164 [http-nio-8336-exec-5] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Goods u WHERE u.typeid=?1 and u.state=?2 --------sql语句-------------
+2020-12-08 17:39:15.160 [http-nio-8336-exec-7] INFO  c.example.shopdms.service.impl.AccountServiceImpl - 根据loginname=shop查询Account
+2020-12-08 17:39:15.161 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Account u WHERE u.login_admin= ?1--------sql语句-------------
+2020-12-08 17:39:19.958 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - select count(u) from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 17:39:19.995 [http-nio-8336-exec-8] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from Order u WHERE u.state !=?1 --------sql语句-------------
+2020-12-08 18:14:37.085 [main] INFO  com.example.shopdms.ShopdmsApplication - Starting ShopdmsApplication on LAPTOP-QIC8RRKI with PID 13696 (D:\dsgc\shopdms\target\classes started by gzcaili in D:\dsgc\shopdms)
+2020-12-08 18:14:37.097 [main] INFO  com.example.shopdms.ShopdmsApplication - The following profiles are active: dev
+2020-12-08 18:14:39.956 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-08 18:14:40.085 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 85ms. Found 0 JPA repository interfaces.
+2020-12-08 18:14:41.050 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.example.shopdms.async.AsyncTaskConfig$$EnhancerBySpringCGLIB$$d3c1521f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 18:14:41.362 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 18:14:42.340 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8336 (http)
+2020-12-08 18:14:42.371 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8336"]
+2020-12-08 18:14:42.373 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 18:14:42.375 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-12-08 18:14:42.906 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 18:14:42.907 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5618 ms
+2020-12-08 18:14:43.584 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-08 18:14:43.934 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+2020-12-08 18:14:44.843 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-08 18:14:45.371 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-08 18:14:45.894 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

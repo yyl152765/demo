@@ -1,0 +1,24 @@
+#定义相关参数
+weixin:
+  wxId: gh_b7060f99a2f3
+  appId: wx96b6f3e29dd7b46e
+  appsecret: 0eed0b1b64b943d8a99b7a570003534c
+  token: 18571756471
+  url: api.weixin.qq.com
+  getAccessTockenUrls: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET
+  createTemporaryMateriaUrl: https://api.weixin.qq.com/cgi-bin/media/upload?access_token=ACCESS_TOKEN&type=TYPE
+  getWebAccessTokenUrl: https://api.weixin.qq.com/sns/oauth2/access_token?appid=APPID&secret=SECRET&code=CODE&grant_type=authorization_code
+  filepath: http://www.gzclkeji.com/caidouShop/image/
+  myshopnumber: 1603582618
+
+linux:
+  username: root
+  password: dianshigoucai@123
+  ip: 111.230.244.78
+  port: 22
+  id: 22
+  uploadpath: /opt/nginx/html/cl/caidouShop/image/
+  filepath: http://www.gzclkeji.com/caidouShop/image/
+
+environment:
+  type: dev

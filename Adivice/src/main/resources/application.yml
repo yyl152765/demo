@@ -1,0 +1,63 @@
+spring:
+  profiles:
+    include: prod
+  datasource:  #配置数据源
+    druid: 
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://111.230.244.78:3306/ydh_store?createDatabaseIfNotExist=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&pinGlobalTxToPhysicalConnection=true&autoReconnect=true&useOldAliasMetadataBehavior=true&serverTimezone=GMT%2B8
+      username: root
+      password: gzcaili2004
+  redis: #redis缓存配置
+    database: 0
+    timeout: 5000
+    host: 127.0.0.1
+    port: 6379
+    jedis:
+      pool:
+        max-wait: 30000
+        max-active: 100
+        max-idle: 8
+
+      
+  devtools: #配置热部署
+    restart: 
+      enabled: true
+      
+  freemarker: #页面不加载缓存，修改即时生效
+      cache: false
+
+
+ # mvc: #配置视图解析器
+  #  view:
+   #   prefix: /WEB-INF/endback/
+   #   suffix: .html
+
+  jackson:
+    time-zone: GMT+8   #配置时间和数据库一致
+  servlet:
+    multipart:   #配置文件输入的最大值
+      max-file-size: 10MB
+      max-request-size: 100MB
+
+
+
+
+mybatis: #配置mybatis
+    mapper-locations: classpath:com/caili/boot/mapper/*.xml
+    type-aliases-package: com.caili.boot.entity
+    type-handlers-package: com.caili.boot.dao
+    configuration:
+        map-underscore-to-camel-case: true
+        default-fetch-size: 100
+        
+logging: #日志配置
+      config: classpath:logback-spring.xml
+
+server:    #设置端口
+  port: 8335
+
+
+
+
+
+

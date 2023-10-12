@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sz.jh.rpa.dao.UserInfoMapper">
+
+    <select id="queryAll" resultType="userinfo"  parameterType="userinfo" >
+      select * from userinfo
+  </select>
+
+    <select id="queryUserByStr" resultType="userinfo"  parameterType="string" >
+        select * from userinfo where username =#{username} and android_id =#{android_id}
+    </select>
+
+    <update id="updateUserStatus"  parameterType="int" >
+        update userinfo set status =#{status},retry_num =#{retry} where id = #{id}
+    </update>
+
+    <update id="reNewUserInfo"  parameterType="string" >
+        update userinfo set last_login_time =#{lastLoginTime},retry_num =5 where id = ${id}
+    </update>
+</mapper>

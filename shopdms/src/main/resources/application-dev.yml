@@ -1,0 +1,8 @@
+linux:
+  username: root
+  password: dianshigoucai@123
+  ip: 111.230.244.78
+  port: 22
+  id: 22
+  uploadpath: /opt/nginx/html/cl/caidouShop/image/
+  filepath: http://www.gzclkeji.com/caidouShop/image/

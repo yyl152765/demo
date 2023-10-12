@@ -1,0 +1,193 @@
+2020-12-17 15:42:19.663 [main] INFO  com.example.shopdms.ShopdmsApplication - Starting ShopdmsApplication on LAPTOP-QIC8RRKI with PID 3620 (D:\dsgc\shopdms\target\classes started by gzcaili in D:\dsgc\shopdms)
+2020-12-17 15:42:19.684 [main] INFO  com.example.shopdms.ShopdmsApplication - The following profiles are active: dev
+2020-12-17 15:42:22.446 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-17 15:42:22.573 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91ms. Found 0 JPA repository interfaces.
+2020-12-17 15:42:23.445 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.example.shopdms.async.AsyncTaskConfig$$EnhancerBySpringCGLIB$$436f1a1b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-17 15:42:23.738 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-17 15:42:24.627 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8336 (http)
+2020-12-17 15:42:24.661 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8336"]
+2020-12-17 15:42:24.663 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-17 15:42:24.664 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-12-17 15:42:25.131 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-17 15:42:25.132 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5226 ms
+2020-12-17 15:42:25.691 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-17 15:42:26.008 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+2020-12-17 15:42:26.778 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-17 15:42:27.192 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-17 15:42:27.765 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-17 15:42:27.855 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-17 15:42:34.013 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-17 15:42:34.108 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 15:42:34.483 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-17 15:42:36.695 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8336"]
+2020-12-17 15:42:36.771 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8336 (http) with context path ''
+2020-12-17 15:42:36.780 [main] INFO  com.example.shopdms.ShopdmsApplication - Started ShopdmsApplication in 21.762 seconds (JVM running for 28.38)
+2020-12-17 15:42:51.556 [http-nio-8336-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-17 15:42:51.561 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-17 15:42:51.601 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 39 ms
+2020-12-17 15:43:16.660 [http-nio-8336-exec-4] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=122 and state =1
+2020-12-17 15:43:16.705 [http-nio-8336-exec-4] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-17 15:43:17.595 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=35
+2020-12-17 15:43:17.620 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=35
+2020-12-17 15:43:17.637 [http-nio-8336-exec-4] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=35
+2020-12-17 15:46:50.920 [http-nio-8336-exec-7] INFO  com.example.shopdms.service.impl.OrderServiceImpl - select * from OrderGoods where orderid=122 and state =1
+2020-12-17 15:46:50.922 [http-nio-8336-exec-7] INFO  c.e.shopdms.repository.impl.BaseRepositoryImpl - from OrderGoods u WHERE u.orderid=?1 and u.state=?2 --------sql语句-------------
+2020-12-17 15:47:27.544 [http-nio-8336-exec-7] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=35
+2020-12-17 15:47:50.974 [http-nio-8336-exec-7] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=35
+2020-12-17 15:47:52.986 [http-nio-8336-exec-7] INFO  c.e.shopdms.service.impl.MyAddressServiceImpl - 查询com.example.shopdms.entity.MyAddressid=35
+2020-12-17 15:48:33.548 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-17 15:48:33.550 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 15:48:33.562 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-12-17 15:48:33.590 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-12-17 16:01:51.577 [main] INFO  com.example.shopdms.ShopdmsApplication - Starting ShopdmsApplication on LAPTOP-QIC8RRKI with PID 7740 (D:\dsgc\shopdms\target\classes started by gzcaili in D:\dsgc\shopdms)
+2020-12-17 16:01:51.591 [main] INFO  com.example.shopdms.ShopdmsApplication - The following profiles are active: dev
+2020-12-17 16:01:53.658 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-17 16:01:53.748 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62ms. Found 0 JPA repository interfaces.
+2020-12-17 16:01:54.424 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.example.shopdms.async.AsyncTaskConfig$$EnhancerBySpringCGLIB$$5b2879cf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-17 16:01:54.663 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-17 16:01:55.462 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8336 (http)
+2020-12-17 16:01:55.495 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8336"]
+2020-12-17 16:01:55.498 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-17 16:01:55.499 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-12-17 16:01:55.899 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-17 16:01:55.900 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4172 ms
+2020-12-17 16:01:56.435 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-17 16:01:56.650 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+2020-12-17 16:01:57.264 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-17 16:01:57.596 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-17 16:01:58.044 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-17 16:01:58.109 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-17 16:02:00.914 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-17 16:02:00.939 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 16:02:01.058 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-17 16:02:02.489 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8336"]
+2020-12-17 16:02:02.562 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8336 (http) with context path ''
+2020-12-17 16:02:02.570 [main] INFO  com.example.shopdms.ShopdmsApplication - Started ShopdmsApplication in 13.586 seconds (JVM running for 21.003)
+2020-12-17 16:02:15.576 [http-nio-8336-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-17 16:02:15.577 [http-nio-8336-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-17 16:02:15.611 [http-nio-8336-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 33 ms
+2020-12-17 16:02:40.656 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-17 16:02:40.658 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 16:02:40.668 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-12-17 16:02:40.701 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-12-17 16:03:39.242 [main] INFO  com.example.shopdms.ShopdmsApplication - Starting ShopdmsApplication on LAPTOP-QIC8RRKI with PID 14900 (D:\dsgc\shopdms\target\classes started by gzcaili in D:\dsgc\shopdms)
+2020-12-17 16:03:39.252 [main] INFO  com.example.shopdms.ShopdmsApplication - The following profiles are active: dev
+2020-12-17 16:03:41.720 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-17 16:03:41.826 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71ms. Found 0 JPA repository interfaces.
+2020-12-17 16:03:42.538 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.example.shopdms.async.AsyncTaskConfig$$EnhancerBySpringCGLIB$$c24687e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-17 16:03:42.764 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-17 16:03:43.553 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8336 (http)
+2020-12-17 16:03:43.580 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8336"]
+2020-12-17 16:03:43.582 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-17 16:03:43.583 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-12-17 16:03:44.032 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-17 16:03:44.033 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4617 ms
+2020-12-17 16:03:44.555 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-17 16:03:44.775 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+2020-12-17 16:03:45.368 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-17 16:03:45.690 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-17 16:03:46.120 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-17 16:03:46.186 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-17 16:03:49.096 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-17 16:03:49.136 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 16:03:49.403 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-17 16:03:51.690 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8336"]
+2020-12-17 16:03:51.771 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8336 (http) with context path ''
+2020-12-17 16:03:51.781 [main] INFO  com.example.shopdms.ShopdmsApplication - Started ShopdmsApplication in 15.381 seconds (JVM running for 19.583)
+2020-12-17 16:03:52.070 [http-nio-8336-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-17 16:03:52.071 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-17 16:03:52.094 [http-nio-8336-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+2020-12-17 16:05:20.951 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-17 16:05:20.952 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 16:05:20.962 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-12-17 16:05:20.994 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-12-17 16:07:03.924 [main] INFO  com.example.shopdms.ShopdmsApplication - Starting ShopdmsApplication on LAPTOP-QIC8RRKI with PID 1568 (D:\dsgc\shopdms\target\classes started by gzcaili in D:\dsgc\shopdms)
+2020-12-17 16:07:03.938 [main] INFO  com.example.shopdms.ShopdmsApplication - The following profiles are active: dev
+2020-12-17 16:07:06.399 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-17 16:07:06.514 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77ms. Found 0 JPA repository interfaces.
+2020-12-17 16:07:07.200 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.example.shopdms.async.AsyncTaskConfig$$EnhancerBySpringCGLIB$$8205ef97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-17 16:07:07.437 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-17 16:07:08.303 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8336 (http)
+2020-12-17 16:07:08.336 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8336"]
+2020-12-17 16:07:08.339 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-17 16:07:08.340 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-12-17 16:07:08.751 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-17 16:07:08.752 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4628 ms
+2020-12-17 16:07:09.221 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-17 16:07:09.428 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+2020-12-17 16:07:09.989 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-17 16:07:10.316 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-17 16:07:10.737 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-17 16:07:10.800 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-17 16:07:13.752 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-17 16:07:13.780 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 16:07:13.906 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-17 16:07:15.841 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8336"]
+2020-12-17 16:07:15.919 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8336 (http) with context path ''
+2020-12-17 16:07:15.928 [main] INFO  com.example.shopdms.ShopdmsApplication - Started ShopdmsApplication in 14.817 seconds (JVM running for 20.275)
+2020-12-17 16:07:18.281 [http-nio-8336-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-17 16:07:18.283 [http-nio-8336-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-17 16:07:18.314 [http-nio-8336-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 30 ms
+2020-12-17 16:08:11.453 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-17 16:08:11.456 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 16:08:11.466 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-12-17 16:08:11.497 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-12-17 16:08:58.878 [main] INFO  com.example.shopdms.ShopdmsApplication - Starting ShopdmsApplication on LAPTOP-QIC8RRKI with PID 7764 (D:\dsgc\shopdms\target\classes started by gzcaili in D:\dsgc\shopdms)
+2020-12-17 16:08:58.889 [main] INFO  com.example.shopdms.ShopdmsApplication - The following profiles are active: dev
+2020-12-17 16:09:01.697 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-17 16:09:01.839 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90ms. Found 0 JPA repository interfaces.
+2020-12-17 16:09:02.883 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.example.shopdms.async.AsyncTaskConfig$$EnhancerBySpringCGLIB$$f9091b30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-17 16:09:03.184 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-17 16:09:04.237 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8336 (http)
+2020-12-17 16:09:04.273 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8336"]
+2020-12-17 16:09:04.275 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-17 16:09:04.276 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-12-17 16:09:04.767 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-17 16:09:04.767 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5698 ms
+2020-12-17 16:09:05.368 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-17 16:09:05.601 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+2020-12-17 16:09:06.243 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-17 16:09:06.614 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-17 16:09:07.074 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-17 16:09:07.142 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-17 16:09:09.884 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-17 16:09:09.910 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 16:09:10.078 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-17 16:09:11.407 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8336"]
+2020-12-17 16:09:11.478 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8336 (http) with context path ''
+2020-12-17 16:09:11.487 [main] INFO  com.example.shopdms.ShopdmsApplication - Started ShopdmsApplication in 15.459 seconds (JVM running for 19.776)
+2020-12-17 16:09:56.604 [http-nio-8336-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-17 16:09:56.605 [http-nio-8336-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-17 16:09:56.635 [http-nio-8336-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 29 ms
+2020-12-17 16:10:29.805 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-17 16:10:29.807 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 16:10:29.819 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-12-17 16:10:29.854 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-12-17 16:11:00.973 [main] INFO  com.example.shopdms.ShopdmsApplication - Starting ShopdmsApplication on LAPTOP-QIC8RRKI with PID 1864 (D:\dsgc\shopdms\target\classes started by gzcaili in D:\dsgc\shopdms)
+2020-12-17 16:11:00.986 [main] INFO  com.example.shopdms.ShopdmsApplication - The following profiles are active: dev
+2020-12-17 16:11:04.147 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-17 16:11:04.277 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 96ms. Found 0 JPA repository interfaces.
+2020-12-17 16:11:05.108 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.example.shopdms.async.AsyncTaskConfig$$EnhancerBySpringCGLIB$$57dcfc51] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-17 16:11:05.337 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-17 16:11:06.366 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8336 (http)
+2020-12-17 16:11:06.404 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8336"]
+2020-12-17 16:11:06.406 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-17 16:11:06.408 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-12-17 16:11:06.979 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-17 16:11:06.980 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5714 ms
+2020-12-17 16:11:07.591 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-17 16:11:07.937 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+2020-12-17 16:11:08.777 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-17 16:11:09.232 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-17 16:11:09.814 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-17 16:11:09.893 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-17 16:11:13.295 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-17 16:11:13.325 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 16:11:13.484 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-17 16:11:15.057 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8336"]
+2020-12-17 16:11:15.129 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8336 (http) with context path ''
+2020-12-17 16:11:15.139 [main] INFO  com.example.shopdms.ShopdmsApplication - Started ShopdmsApplication in 17.373 seconds (JVM running for 21.713)
+2020-12-17 16:17:33.168 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-17 16:17:33.169 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 16:17:33.179 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-12-17 16:17:33.211 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
